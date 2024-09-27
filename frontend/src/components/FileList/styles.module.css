@@ -1,0 +1,78 @@
+.file_list_container {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .error {
+    color: red;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .file_table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .file_table th, .file_table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .file_table th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .file_table tr:hover {
+    background-color: #f1f1f1; 
+  }
+  
+  .download_link {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .download_link:hover {
+    color: #45a049;
+  }
+  
+  .delete_btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .delete_btn:hover {
+    background-color: #d32f2f; 
+  }
+  
+
+  @media (max-width: 600px) {
+    .file_table {
+      font-size: 14px; 
+    }
+  
+    .delete_btn {
+      padding: 6px 10px; 
+    }
+  }
+  
