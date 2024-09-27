@@ -55,7 +55,8 @@
   }
   
   .file_table th {
-    background-color: #4CAF50;
+    /* background-color: #4CAF50; */
+    background-color: #3bb19b;
     color: white;
     font-size: 18px;
   }
@@ -84,7 +85,7 @@
   }
   
   .download_btn {
-    background-color: #4CAF50;
+    background-color: #3bb19b;
     color: white;
     border: none;
   }
